@@ -12,7 +12,7 @@ git add * / git add . / git add -A
 
 git commit -m "Commit inicial em 26/04/2022 às 16h10min"
 
-git push origin master (empurrar conteúdo para o repositório)
+git push origin master/ git push origin main (empurrar conteúdo para o repositório - atentar para o rótulo main/master no github)
 
 git pull origin master (puxar conteúdo - para resolver conflitos)
 
