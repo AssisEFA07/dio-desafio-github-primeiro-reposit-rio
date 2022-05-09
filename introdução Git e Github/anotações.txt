@@ -1,0 +1,24 @@
+link para download git : https://git-scm.com/downloads
+
+git init - criação de um repositório na pasta
+
+git config --global user.email "exemplo@hotmail.com"
+
+git config --global user.name Nome
+
+git status
+
+git add *
+
+git commit -m "Commit inicial em 26/04/2022 às 16h10min"
+
+git push origin master (empurrar conteúdo para o repositório)
+
+git pull origin master (puxar conteúdo - para resolver conflitos)
+
+git clone https://github.com/python/cpython.git (clonar um repositório)
+
+git remote -v (para onde está apontado o repositório)
+
+
+
