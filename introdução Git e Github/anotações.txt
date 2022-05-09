@@ -8,7 +8,7 @@ git config --global user.name Nome
 
 git status
 
-git add *
+git add * / git add . / git add -A
 
 git commit -m "Commit inicial em 26/04/2022 às 16h10min"
 
