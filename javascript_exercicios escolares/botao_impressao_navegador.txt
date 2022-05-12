@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Como criar um botão para imprimir a página do navegador - HTML - Web Designer - Fortaleza, Ceará</title>
+</head>
+<body>
+<h1> teste de página para impressão </h1>
+<form>
+<input type="button" value="Print this page" onClick="window.print()"/>
+</form>
+
+</body>
+</html>

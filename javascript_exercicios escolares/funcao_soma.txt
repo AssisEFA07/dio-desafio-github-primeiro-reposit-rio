@@ -1,0 +1,11 @@
+function somar(num1,num2){
+  let resultado = num1 + num2;
+  return resultado;
+}
+ let soma = somar(3,4);
+ console.log("Soma:" +soma);
+
+
+
+
+/////////////////////////

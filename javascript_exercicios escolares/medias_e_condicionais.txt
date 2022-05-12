@@ -1,0 +1,21 @@
+//editor javascript
+//https://replit.com/languages/javascript
+
+
+console.log("Hello world!- Programa de Treinamento");
+
+function calcularMedia (nota1, nota2, nota3) {
+  let media=(nota1*1 + nota2*2 + nota3*3)/6;
+  return media;  
+}
+let x = calcularMedia (5,5,4);
+console.log("Sua média foi de " + x + "pontos");
+if (x < 5){
+  console.log(" Você está Reprovado") ; 
+} else if(x<7){
+  console.log(" Você está na prova final") ; 
+}
+else{
+  console.log("Você está Aprovado");
+} 
+ 

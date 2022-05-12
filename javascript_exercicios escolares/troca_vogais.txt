@@ -1,0 +1,21 @@
+//editor javascript
+//https://replit.com/languages/javascript
+
+
+function trocaVogais(string) {
+  let novaString = "";
+
+  for (let i = 0; i < string.length; i++) {
+    let caractere = string[i];
+    
+    if (caractere === "a" || caractere === "e" || caractere === "i" || caractere === "o" || caractere === "u") {
+      novaString += "1";
+    } else {
+      novaString += caractere;
+    }
+  }
+
+  return novaString;
+}
+
+console.log(trocaVogais("carro"));

@@ -1,0 +1,8 @@
+console.log("Hello world!- Programa de Treinamento");
+
+function apresentar (nome) {
+  let text = "Olá Mundo! Sou " + nome ;   
+  return text;
+}   
+let name = apresentar ("Maria") ; // inserir o nome para alicar na função
+console.log(name);

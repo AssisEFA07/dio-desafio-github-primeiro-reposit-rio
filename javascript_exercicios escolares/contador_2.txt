@@ -1,0 +1,11 @@
+//editor javascript
+//https://replit.com/languages/javascript
+
+function umbridge(){
+  let frase = "";
+  for (let contador = 0; contador < 100; contador ++) {
+    frase += "não devo contar mentiras ";
+    }
+  return frase
+}
+console.log(umbridge()); 

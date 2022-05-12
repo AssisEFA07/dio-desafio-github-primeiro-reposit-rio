@@ -1,0 +1,9 @@
+
+console.log("Hello world!-PROGRAMA DE MÉDIAS");
+
+function media(num1,num2){
+  let resultadoMedia = (num1 + num2)/2; // média das variáveis 
+  
+  return resultadoMedia;
+}    
+console.log("MÉDIA: " + media(1,7));

@@ -1,0 +1,13 @@
+//editor javascript
+// https://replit.com/languages/javascript
+
+function pecoDesconto(preco, estaComDesconto) {
+  // Escreva aqui seu código
+  if (preco > 100 && estaComDesconto == false){
+    return "Quero pechinchar";
+  } else{
+    return "Negócio fechado";
+  }
+}
+
+console.log(pecoDesconto(101,true)); 

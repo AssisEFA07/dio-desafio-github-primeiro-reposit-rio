@@ -1,0 +1,13 @@
+//editor javascript
+//https://replit.com/languages/javascript
+
+console.log('Hello, world!')
+function teste(){
+let alunos = ["Ana","Bia",'Carlos'];
+let mensagem = "";
+  for(let i = 0; i < alunos.length; i++){
+    mensagem = mensagem + alunos[i]+" ";
+  }
+  return mensagem;
+}
+console.log(teste());
